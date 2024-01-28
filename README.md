@@ -1,0 +1,2 @@
+For this assignment, we are practicing with making and customizing our github repo. 
+We are using this repo strictly for the purpose of practicing with our github repo and learning to create files for future projects.

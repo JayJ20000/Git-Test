@@ -10,12 +10,21 @@ using namespace std;
     return total;
   }
 
+  int prod(int n){
+      int total = 1;
+    for(int i = 1; i <= n; i++){
+        total*=i;
+    }
+    return total;
+  }
+
 int main() {
   int n;
   
   cout << "Enter a number: ";
   cin >> n;
   
-  cout << "The sum of the numbers up to n are: " << sum(n);
+  cout << "The sum of the numbers up to n are: " << sum(n) << "\n";
+  cout << "The pproduct of the numbers up to n are: " << prod(n);
   
  }
